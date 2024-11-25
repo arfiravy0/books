@@ -42,3 +42,9 @@ Kode tersebut adalah contoh penggunaan Future, yang memanfaatkan metode then dan
 SOAL 7
 ![alt text](image-5.png)
 
+SOAL 8
+~ Jelaskan maksud perbedaan kode langkah 1 dan 4!
+Jawab:
+~ Langkah 1 (FutureGroup): Menggunakan pustaka eksternal untuk mengelola dan menunggu sekumpulan Future. Memerlukan langkah tambahan seperti .add() untuk menambahkan Future dan .close() untuk menutup grup.
+
+~ Langkah 4 (Future.wait): Menggunakan fitur bawaan Dart untuk langsung menunggu sekumpulan Future tanpa langkah tambahan, cukup dengan memberikan daftar Future.

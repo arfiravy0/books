@@ -97,8 +97,19 @@ void returnFG() {
       result = total.toString();
     });
   });
+  final futures = Future.wait<int>([
+  returnOneAsync(),
+  returnTwoAsync(),
+  returnThreeAsync(),
+]);
 }
-  
+
+
+
+
+
+
+
 
   Future<Response> getData() async{
     const authority = 'www.googleapis.com';
