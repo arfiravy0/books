@@ -12,3 +12,13 @@ Jawab:
 
 ~ catchError biasanya merujuk pada mekanisme penanganan error (kesalahan) dalam bahasa pemrograman.
 ![alt text](image-1.png)
+
+SOAL 4
+~ Jelaskan maksud kode langkah 1 dan 2 tersebut!
+Jawab: 
+~ Langkah 1 :
+Kode tersebut mensimulasikan operasi yang membutuhkan waktu tertentu dengan penundaan menggunakan Future.delayed. Hal ini berguna dalam mengelola proses asinkron dalam aplikasi.
+
+~ Langkah 2 : 
+Kode tersebut adalah fungsi asinkron dalam bahasa Dart yang menghitung total nilai yang diperoleh dari tiga fungsi returnOneAsync, returnTwoAsync, dan returnThreeAsync. Fungsi ini juga memperbarui tampilan (UI) dengan memanfaatkan setState untuk mengubah nilai variabel result.
+![alt text](image-2.png)
