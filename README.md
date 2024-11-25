@@ -28,3 +28,13 @@ SOAL 5
 Jawab: 
 ~ Kode pada langkah 2 bertujuan untuk membuat Future secara manual menggunakan Completer. Menunda hasil dengan menunggu selama 5 detik. Dan menyelesaikan Future dengan nilai 42 menggunakan completer.complete.
 ![alt text](image-3.png)
+
+SOAL 6
+~ Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+Jawab: 
+~ Langkah 5 :
+Kode tersebut adalah fungsi asinkron bernama calculate, yang menggunakan blok try-catch untuk menangani kemungkinan kesalahan saat menjalankan operasi asinkron.
+
+~ Langkah 6 :
+Kode tersebut adalah contoh penggunaan Future, yang memanfaatkan metode then dan catchError untuk menangani hasil sukses atau error dari operasi asinkron.
+![alt text](image-4.png)

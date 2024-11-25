@@ -71,6 +71,17 @@ Future calculate() async {
   await Future.delayed(const Duration(seconds : 5));
   completer.complete(42);
 }
+
+Future calculate2() async {
+  try {
+    await new Future.delayed(const Duration(seconds : 5));
+    completer.complete(42);
+  }
+  catch (_) {
+    completer.completeError({});
+  }
+}
+
   
 
   Future<Response> getData() async{
@@ -108,6 +119,8 @@ Future calculate() async {
                   setState(() {
                     result = value.toString();
                   });
+                  }).catchError((e) {
+                    result = 'An error occurred';
                 });
 
               },
