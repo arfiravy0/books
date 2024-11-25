@@ -38,3 +38,7 @@ Kode tersebut adalah fungsi asinkron bernama calculate, yang menggunakan blok tr
 ~ Langkah 6 :
 Kode tersebut adalah contoh penggunaan Future, yang memanfaatkan metode then dan catchError untuk menangani hasil sukses atau error dari operasi asinkron.
 ![alt text](image-4.png)
+
+SOAL 7
+![alt text](image-5.png)
+
